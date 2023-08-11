@@ -6,56 +6,56 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, RATTATA
-	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 3, RATTATA
+	db 7, RATTATA
+	db 6, RATTATA
+	db 6, RATTATA
 	; day
 	db 3, RATTATA
-	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 3, RATTATA
+	db 7, RATTATA
+	db 6, RATTATA
+	db 6, RATTATA
 	; nite
 	db 3, GASTLY
-	db 4, GASTLY
 	db 5, GASTLY
-	db 3, RATTATA
 	db 6, GASTLY
-	db 5, RATTATA
-	db 5, RATTATA
+	db 3, RATTATA
+	db 7, GASTLY
+	db 6, RATTATA
+	db 6, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, RATTATA
-	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 3, RATTATA
+	db 7, RATTATA
+	db 6, RATTATA
+	db 6, RATTATA
 	; day
 	db 3, RATTATA
-	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 3, RATTATA
+	db 7, RATTATA
+	db 6, RATTATA
+	db 6, RATTATA
 	; nite
 	db 3, GASTLY
-	db 4, GASTLY
 	db 5, GASTLY
-	db 3, RATTATA
 	db 6, GASTLY
-	db 5, RATTATA
-	db 5, RATTATA
+	db 3, RATTATA
+	db 7, GASTLY
+	db 6, RATTATA
+	db 6, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_2F
@@ -416,29 +416,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
 	; day
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
 	; nite
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
+	db 6, UNOWN
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F
@@ -1520,26 +1520,26 @@ JohtoGrassWildMons:
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
-	db 4, GEODUDE
+	db 5, GEODUDE
 	db 3, ZUBAT
-	db 4, ZUBAT
-	db 4, DUNSPARCE
+	db 5, ZUBAT
+	db 5, DUNSPARCE
 	; day
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
-	db 4, GEODUDE
+	db 5, GEODUDE
 	db 3, ZUBAT
-	db 4, ZUBAT
-	db 4, DUNSPARCE
+	db 5, ZUBAT
+	db 5, DUNSPARCE
 	; nite
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
-	db 4, GEODUDE
+	db 5, GEODUDE
 	db 3, ZUBAT
-	db 4, ZUBAT
-	db 4, DUNSPARCE
+	db 5, ZUBAT
+	db 5, DUNSPARCE
 	end_grass_wildmons
 
 	def_grass_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
@@ -1658,53 +1658,53 @@ JohtoGrassWildMons:
 	IF DEF(_GOLD)
 	; morn
 	db 3, PIDGEY
-	db 4, CATERPIE
-	db 3, BELLSPROUT
-	db 5, METAPOD
 	db 5, CATERPIE
-	db 5, METAPOD
-	db 5, METAPOD
+	db 3, BELLSPROUT
+	db 6, METAPOD
+	db 6, CATERPIE
+	db 6, METAPOD
+	db 6, METAPOD
 	; day
 	db 3, PIDGEY
-	db 4, CATERPIE
-	db 3, BELLSPROUT
-	db 5, METAPOD
 	db 5, CATERPIE
-	db 6, METAPOD
-	db 6, METAPOD
-	; nite
-	db 4, SPINARAK
-	db 4, RATTATA
 	db 3, BELLSPROUT
+	db 6, METAPOD
+	db 6, CATERPIE
+	db 7, METAPOD
+	db 7, METAPOD
+	; nite
+	db 5, SPINARAK
 	db 5, RATTATA
-	db 5, HOOTHOOT
-	db 5, HOOTHOOT
-	db 5, HOOTHOOT
+	db 3, BELLSPROUT
+	db 6, RATTATA
+	db 6, HOOTHOOT
+	db 6, HOOTHOOT
+	db 6, HOOTHOOT
 	ELIF DEF(_SILVER)
 	; morn
-	db 4, LEDYBA
-	db 4, WEEDLE
+	db 5, LEDYBA
+	db 5, WEEDLE
 	db 3, BELLSPROUT
-	db 5, KAKUNA
-	db 5, PIDGEY
-	db 5, PIDGEY
-	db 5, PIDGEY
+	db 6, KAKUNA
+	db 6, PIDGEY
+	db 6, PIDGEY
+	db 6, PIDGEY
 	; day
 	db 3, PIDGEY
-	db 4, WEEDLE
-	db 3, BELLSPROUT
-	db 5, KAKUNA
 	db 5, WEEDLE
+	db 3, BELLSPROUT
 	db 6, KAKUNA
-	db 6, KAKUNA
+	db 6, WEEDLE
+	db 7, KAKUNA
+	db 7, KAKUNA
 	; nite
 	db 3, HOOTHOOT
-	db 4, RATTATA
-	db 3, BELLSPROUT
 	db 5, RATTATA
-	db 5, HOOTHOOT
-	db 5, HOOTHOOT
-	db 5, HOOTHOOT
+	db 3, BELLSPROUT
+	db 6, RATTATA
+	db 6, HOOTHOOT
+	db 6, HOOTHOOT
+	db 6, HOOTHOOT
 	ENDC
 	end_grass_wildmons
 
