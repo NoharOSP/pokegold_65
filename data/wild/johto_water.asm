@@ -4,9 +4,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons RUINS_OF_ALPH_OUTSIDE
 	db 2 percent ; encounter rate
-	db 15, WOOPER
-	db 20, QUAGSIRE
-	db 15, QUAGSIRE
+	db 19, WOOPER
+	db 26, QUAGSIRE
+	db 19, QUAGSIRE
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_1F
@@ -106,9 +106,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 2 percent ; encounter rate
-	db 15, MAGIKARP
-	db 10, MAGIKARP
-	db 5, MAGIKARP
+	db 19, MAGIKARP
+	db 13, MAGIKARP
+	db 6, MAGIKARP
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_BLACKTHORN_ENTRANCE
@@ -127,16 +127,16 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
+	db 26, POLIWAG
+	db 19, POLIWAG
+	db 26, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_31
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
+	db 26, POLIWAG
+	db 19, POLIWAG
+	db 26, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_32
@@ -203,30 +203,30 @@ JohtoWaterWildMons:
 
 	def_water_wildmons ROUTE_45
 	db 2 percent ; encounter rate
-	db 20, MAGIKARP
-	db 15, MAGIKARP
-	db 5, MAGIKARP
+	db 26, MAGIKARP
+	db 19, MAGIKARP
+	db 6, MAGIKARP
 	end_water_wildmons
 
 	def_water_wildmons NEW_BARK_TOWN
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
+	db 26, TENTACOOL
+	db 19, TENTACOOL
+	db 26, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons CHERRYGROVE_CITY
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
+	db 26, TENTACOOL
+	db 19, TENTACOOL
+	db 26, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
+	db 26, POLIWAG
+	db 19, POLIWAG
+	db 26, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons CIANWOOD_CITY
