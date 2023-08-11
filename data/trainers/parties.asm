@@ -13,8 +13,8 @@ Trainers:
 FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db  7, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
-	db  9, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
+	db  9, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
+	db  11, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
 WhitneyGroup:
@@ -338,13 +338,13 @@ ErikaGroup:
 YoungsterGroup:
 	; YOUNGSTER (1)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db  4, RATTATA
+	db  5, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (2)
 	db "MIKEY@", TRAINERTYPE_NORMAL
 	db  2, PIDGEY
-	db  4, RATTATA
+	db  5, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (3)
@@ -374,12 +374,12 @@ YoungsterGroup:
 
 	; YOUNGSTER (7)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db 15, RATTATA
+	db 19, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (8)
 	db "JOEY@", TRAINERTYPE_MOVES
-	db 21, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
+	db 27, RATICATE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
 	db -1 ; end
 
 	; YOUNGSTER (9)
@@ -521,13 +521,13 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	; BIRD_KEEPER (1)
 	db "ROD@", TRAINERTYPE_NORMAL
-	db  7, PIDGEY
-	db  7, PIDGEY
+	db  9, PIDGEY
+	db  9, PIDGEY
 	db -1 ; end
 
 	; BIRD_KEEPER (2)
 	db "ABE@", TRAINERTYPE_NORMAL
-	db  9, SPEAROW
+	db  11, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
@@ -1464,18 +1464,18 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (10)
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  9, METAPOD
-	db  9, METAPOD
-	db 10, KAKUNA
-	db  9, METAPOD
+	db  11, METAPOD
+	db  11, METAPOD
+	db 13, KAKUNA
+	db  11, METAPOD
 	db -1 ; end
 
 	; BUG_CATCHER (11)
 	db "WADE@", TRAINERTYPE_NORMAL
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
-	db 15, BEEDRILL
-	db 14, BUTTERFREE
+	db 18, BUTTERFREE
+	db 18, BUTTERFREE
+	db 19, BEEDRILL
+	db 18, BUTTERFREE
 	db -1 ; end
 
 	; BUG_CATCHER (12)
@@ -2852,13 +2852,13 @@ SageGroup:
 
 	; SAGE (3)
 	db "JIN@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
+	db  7, BELLSPROUT
 	db -1 ; end
 
 	; SAGE (4)
 	db "TROY@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, HOOTHOOT
+	db  9, BELLSPROUT
+	db  9, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (5)
@@ -2889,9 +2889,9 @@ SageGroup:
 
 	; SAGE (9)
 	db "LI@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, BELLSPROUT
-	db 10, HOOTHOOT
+	db  9, BELLSPROUT
+	db  9, BELLSPROUT
+	db 13, HOOTHOOT
 	db -1 ; end
 
 MediumGroup:
