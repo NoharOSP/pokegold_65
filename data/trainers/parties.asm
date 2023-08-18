@@ -349,27 +349,27 @@ YoungsterGroup:
 
 	; YOUNGSTER (3)
 	db "ALBERT@", TRAINERTYPE_NORMAL
-	db  6, RATTATA
-	db  8, ZUBAT
+	db  7, RATTATA
+	db  10, ZUBAT
 	db -1 ; end
 
 	; YOUNGSTER (4)
 	db "GORDON@", TRAINERTYPE_NORMAL
-	db 10, WOOPER
+	db 13, WOOPER
 	db -1 ; end
 
 	; YOUNGSTER (5)
 	db "SAMUEL@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db 10, SANDSHREW
-	db  8, SPEAROW
-	db  8, SPEAROW
+	db  9, RATTATA
+	db 13, SANDSHREW
+	db  10, SPEAROW
+	db  10, SPEAROW
 	db -1 ; end
 
 	; YOUNGSTER (6)
 	db "IAN@", TRAINERTYPE_NORMAL
-	db 10, MANKEY
-	db 12, DIGLETT
+	db 13, MANKEY
+	db 15, DIGLETT
 	db -1 ; end
 
 	; YOUNGSTER (7)
@@ -384,24 +384,24 @@ YoungsterGroup:
 
 	; YOUNGSTER (9)
 	db "WARREN@", TRAINERTYPE_NORMAL
-	db 35, FEAROW
+	db 45, FEAROW
 	db -1 ; end
 
 	; YOUNGSTER (10)
 	db "JIMMY@", TRAINERTYPE_NORMAL
-	db 33, RATICATE
-	db 33, ARBOK
+	db 42, RATICATE
+	db 42, ARBOK
 	db -1 ; end
 
 	; YOUNGSTER (11)
 	db "OWEN@", TRAINERTYPE_NORMAL
-	db 35, GROWLITHE
+	db 45, GROWLITHE
 	db -1 ; end
 
 	; YOUNGSTER (12)
 	db "JASON@", TRAINERTYPE_NORMAL
-	db 33, SANDSLASH
-	db 33, CROBAT
+	db 42, SANDSLASH
+	db 42, CROBAT
 	db -1 ; end
 
 SchoolboyGroup:
@@ -532,106 +532,106 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (3)
 	db "BRYAN@", TRAINERTYPE_NORMAL
-	db 12, PIDGEY
-	db 14, PIDGEOTTO
+	db 15, PIDGEY
+	db 18, PIDGEOTTO
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
 	db "THEO@", TRAINERTYPE_NORMAL
-	db 17, PIDGEY
-	db 15, PIDGEY
+	db 22, PIDGEY
 	db 19, PIDGEY
-	db 15, PIDGEY
-	db 15, PIDGEY
+	db 24, PIDGEY
+	db 19, PIDGEY
+	db 19, PIDGEY
 	db -1 ; end
 
 	; BIRD_KEEPER (5)
 	db "TOBY@", TRAINERTYPE_NORMAL
-	db 15, DODUO
-	db 16, DODUO
-	db 17, DODUO
+	db 19, DODUO
+	db 20, DODUO
+	db 22, DODUO
 	db -1 ; end
 
 	; BIRD_KEEPER (6)
 	db "DENIS@", TRAINERTYPE_NORMAL
-	db 18, SPEAROW
-	db 20, FEAROW
-	db 18, SPEAROW
+	db 23, SPEAROW
+	db 26, FEAROW
+	db 23, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (7)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 25, PIDGEOTTO
-	db 25, PIDGEOTTO
+	db 32, PIDGEOTTO
+	db 32, PIDGEOTTO
 	db -1 ; end
 
 	; BIRD_KEEPER (8)
 	db "HANK@", TRAINERTYPE_NORMAL
-	db 12, PIDGEY
-	db 34, PIDGEOT
+	db 15, PIDGEY
+	db 44, PIDGEOT
 	db -1 ; end
 
 	; BIRD_KEEPER (9)
 	db "ROY@", TRAINERTYPE_NORMAL
-	db 29, FEAROW
-	db 35, FEAROW
+	db 37, FEAROW
+	db 45, FEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (10)
 	db "BORIS@", TRAINERTYPE_NORMAL
-	db 30, DODUO
-	db 28, DODUO
-	db 32, DODRIO
+	db 39, DODUO
+	db 26, DODUO
+	db 41, DODRIO
 	db -1 ; end
 
 	; BIRD_KEEPER (11)
 	db "BOB@", TRAINERTYPE_NORMAL
-	db 34, NOCTOWL
+	db 44, NOCTOWL
 	db -1 ; end
 
 	; BIRD_KEEPER (12)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 37, FARFETCH_D
+	db 48, FARFETCH_D
 	db -1 ; end
 
 	; BIRD_KEEPER (13)
 	db "PETER@", TRAINERTYPE_NORMAL
-	db  6, PIDGEY
-	db  6, PIDGEY
-	db  8, SPEAROW
+	db  7, PIDGEY
+	db  7, PIDGEY
+	db  10, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 35, FARFETCH_D
+	db 45, FARFETCH_D
 	db -1 ; end
 
 	; BIRD_KEEPER (15)
 	db "PERRY@", TRAINERTYPE_NORMAL
-	db 34, FARFETCH_D
+	db 44, FARFETCH_D
 	db -1 ; end
 
 	; BIRD_KEEPER (16)
 	db "BRET@", TRAINERTYPE_NORMAL
-	db 32, PIDGEOTTO
-	db 32, FEAROW
+	db 41, PIDGEOTTO
+	db 41, FEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (17)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 41, FARFETCH_D
+	db 53, FARFETCH_D
 	db -1 ; end
 
 	; BIRD_KEEPER (18)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 31, PIDGEOTTO
-	db 33, PIDGEOTTO
+	db 40, PIDGEOTTO
+	db 42, PIDGEOTTO
 	db -1 ; end
 
 	; BIRD_KEEPER (19)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 35, PIDGEOTTO
-	db 37, PIDGEOT
+	db 45, PIDGEOTTO
+	db 48, PIDGEOT
 	db -1 ; end
 
 LassGroup:
@@ -1414,15 +1414,15 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (2)
 	db "ROB@", TRAINERTYPE_NORMAL
-	db 32, BEEDRILL
-	db 32, BUTTERFREE
+	db 41, BEEDRILL
+	db 41, BUTTERFREE
 	db -1 ; end
 
 	; BUG_CATCHER (3)
 	db "ED@", TRAINERTYPE_NORMAL
-	db 30, BEEDRILL
-	db 30, BEEDRILL
-	db 30, BEEDRILL
+	db 39, BEEDRILL
+	db 39, BEEDRILL
+	db 39, BEEDRILL
 	db -1 ; end
 
 	; BUG_CATCHER (4)
@@ -1435,31 +1435,31 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (5)
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db  7, WEEDLE
-	db  9, KAKUNA
-	db 12, BEEDRILL
+	db  9, WEEDLE
+	db  11, KAKUNA
+	db 15, BEEDRILL
 	db -1 ; end
 
 	; BUG_CATCHER (6)
 	db "AL@", TRAINERTYPE_NORMAL
-	db 12, CATERPIE
-	db 12, WEEDLE
+	db 15, CATERPIE
+	db 15, WEEDLE
 	db -1 ; end
 
 	; BUG_CATCHER (7)
 	db "JOSH@", TRAINERTYPE_NORMAL
-	db 13, PARAS
+	db 16, PARAS
 	db -1 ; end
 
 	; BUG_CATCHER (8)
 	db "ARNIE@", TRAINERTYPE_NORMAL
-	db 15, VENONAT
+	db 19, VENONAT
 	db -1 ; end
 
 	; BUG_CATCHER (9)
 	db "KEN@", TRAINERTYPE_NORMAL
-	db 30, ARIADOS
-	db 32, PINSIR
+	db 39, ARIADOS
+	db 41, PINSIR
 	db -1 ; end
 
 	; BUG_CATCHER (10)
@@ -1480,17 +1480,17 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (12)
 	db "DOUG@", TRAINERTYPE_NORMAL
-	db 34, ARIADOS
+	db 44, ARIADOS
 	db -1 ; end
 
 	; BUG_CATCHER (13)
 	db "ARNIE@", TRAINERTYPE_NORMAL
-	db 19, VENONAT
+	db 24, VENONAT
 	db -1 ; end
 
 	; BUG_CATCHER (14)
 	db "ARNIE@", TRAINERTYPE_MOVES
-	db 28, VENOMOTH,   DISABLE, SUPERSONIC, CONFUSION, LEECH_LIFE
+	db 36, VENOMOTH,   DISABLE, SUPERSONIC, CONFUSION, LEECH_LIFE
 	db -1 ; end
 
 FisherGroup:
