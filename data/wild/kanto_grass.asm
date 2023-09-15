@@ -145,54 +145,54 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	IF DEF(_GOLD)
 	; morn
-	db 32, GRAVELER
-	db 32, GOLBAT
-	db 33, URSARING
-	db 34, ONIX
-	db 36, ONIX
-	db 35, RHYHORN
-	db 35, RHYHORN
+	db 41, GRAVELER
+	db 41, GOLBAT
+	db 42, URSARING
+	db 44, ONIX
+	db 46, ONIX
+	db 45, RHYHORN
+	db 45, RHYHORN
 	; day
-	db 32, GRAVELER
-	db 32, GOLBAT
-	db 33, URSARING
-	db 34, ONIX
-	db 36, ONIX
-	db 35, RHYHORN
-	db 35, RHYHORN
+	db 41, GRAVELER
+	db 41, GOLBAT
+	db 42, URSARING
+	db 44, ONIX
+	db 46, ONIX
+	db 45, RHYHORN
+	db 45, RHYHORN
 	; nite
-	db 32, GRAVELER
-	db 32, GOLBAT
-	db 33, URSARING
-	db 34, ONIX
-	db 36, ONIX
-	db 35, RHYHORN
-	db 35, RHYHORN
+	db 41, GRAVELER
+	db 41, GOLBAT
+	db 42, URSARING
+	db 44, ONIX
+	db 46, ONIX
+	db 45, RHYHORN
+	db 45, RHYHORN
 	ELIF DEF(_SILVER)
 	; morn
-	db 32, GRAVELER
-	db 32, GOLBAT
-	db 33, DONPHAN
-	db 34, ONIX
-	db 36, ONIX
-	db 35, RHYHORN
-	db 35, RHYHORN
+	db 41, GRAVELER
+	db 41, GOLBAT
+	db 42, DONPHAN
+	db 44, ONIX
+	db 46, ONIX
+	db 45, RHYHORN
+	db 45, RHYHORN
 	; day
-	db 32, GRAVELER
-	db 32, GOLBAT
-	db 33, DONPHAN
-	db 34, ONIX
-	db 36, ONIX
-	db 35, RHYHORN
-	db 35, RHYHORN
+	db 41, GRAVELER
+	db 41, GOLBAT
+	db 42, DONPHAN
+	db 44, ONIX
+	db 46, ONIX
+	db 45, RHYHORN
+	db 45, RHYHORN
 	; nite
-	db 32, GRAVELER
-	db 32, GOLBAT
-	db 33, DONPHAN
-	db 34, ONIX
-	db 36, ONIX
-	db 35, RHYHORN
-	db 35, RHYHORN
+	db 41, GRAVELER
+	db 41, GOLBAT
+	db 42, DONPHAN
+	db 44, ONIX
+	db 46, ONIX
+	db 45, RHYHORN
+	db 45, RHYHORN
 	ENDC
 	end_grass_wildmons
 
@@ -203,29 +203,29 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	ENDC
 	; morn
-	db 22, ZUBAT
-	db 22, RATICATE
-	db 22, GOLBAT
-	db 21, SLOWPOKE
-	db 20, RATTATA
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 28, ZUBAT
+	db 28, RATICATE
+	db 28, GOLBAT
+	db 27, SLOWPOKE
+	db 26, RATTATA
+	db 29, SLOWPOKE
+	db 29, SLOWPOKE
 	; day
-	db 22, ZUBAT
-	db 22, RATICATE
-	db 22, GOLBAT
-	db 21, SLOWPOKE
-	db 20, RATTATA
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 28, ZUBAT
+	db 28, RATICATE
+	db 28, GOLBAT
+	db 27, SLOWPOKE
+	db 26, RATTATA
+	db 29, SLOWPOKE
+	db 29, SLOWPOKE
 	; nite
-	db 22, ZUBAT
-	db 22, RATICATE
-	db 22, GOLBAT
-	db 21, SLOWPOKE
-	db 20, RATTATA
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
+	db 28, ZUBAT
+	db 28, RATICATE
+	db 28, GOLBAT
+	db 27, SLOWPOKE
+	db 26, RATTATA
+	db 29, SLOWPOKE
+	db 29, SLOWPOKE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_1
@@ -1118,54 +1118,54 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	IF DEF(_GOLD)
 	; morn
-	db 28, DODUO
-	db 28, SANDSLASH
-	db 32, PONYTA
-	db 30, DODUO
-	db 30, DODRIO
-	db 30, RATICATE
-	db 30, QUAGSIRE
+	db 36, DODUO
+	db 36, SANDSLASH
+	db 41, PONYTA
+	db 39, DODUO
+	db 39, DODRIO
+	db 39, RATICATE
+	db 39, QUAGSIRE
 	; day
-	db 28, DODUO
-	db 28, SANDSLASH
-	db 32, PONYTA
-	db 30, DODUO
-	db 30, RATICATE
-	db 30, DODRIO
-	db 30, DODRIO
+	db 36, DODUO
+	db 36, SANDSLASH
+	db 41, PONYTA
+	db 39, DODUO
+	db 39, RATICATE
+	db 39, DODRIO
+	db 39, DODRIO
 	; nite
-	db 28, RATICATE
-	db 28, SANDSLASH
-	db 32, PONYTA
-	db 30, RATICATE
-	db 30, QUAGSIRE
-	db 32, QUAGSIRE
-	db 32, QUAGSIRE
+	db 36, RATICATE
+	db 36, SANDSLASH
+	db 41, PONYTA
+	db 39, RATICATE
+	db 39, QUAGSIRE
+	db 39, QUAGSIRE
+	db 39, QUAGSIRE
 	ELIF DEF(_SILVER)
 	; morn
-	db 28, DODUO
-	db 28, RATICATE
-	db 32, PONYTA
-	db 30, DODUO
-	db 30, ARBOK
-	db 30, RATICATE
-	db 30, QUAGSIRE
+	db 36, DODUO
+	db 36, RATICATE
+	db 41, PONYTA
+	db 39, DODUO
+	db 39, ARBOK
+	db 39, RATICATE
+	db 39, QUAGSIRE
 	; day
-	db 28, DODUO
-	db 28, RATICATE
-	db 32, PONYTA
-	db 30, DODUO
-	db 30, RATICATE
-	db 30, ARBOK
-	db 30, ARBOK
+	db 36, DODUO
+	db 36, RATICATE
+	db 41, PONYTA
+	db 39, DODUO
+	db 39, RATICATE
+	db 39, ARBOK
+	db 39, ARBOK
 	; nite
-	db 28, RATICATE
-	db 28, RATICATE
-	db 32, PONYTA
-	db 30, RATICATE
-	db 30, QUAGSIRE
-	db 30, ARBOK
-	db 30, ARBOK
+	db 36, RATICATE
+	db 36, RATICATE
+	db 41, PONYTA
+	db 39, RATICATE
+	db 39, QUAGSIRE
+	db 39, ARBOK
+	db 39, ARBOK
 	ENDC
 	end_grass_wildmons
 
@@ -1173,54 +1173,54 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	IF DEF(_GOLD)
 	; morn
-	db 28, DODUO
-	db 28, RATICATE
-	db 30, DODUO
-	db 28, QUAGSIRE
-	db 32, PONYTA
-	db 30, SANDSLASH
-	db 30, SANDSLASH
+	db 36, DODUO
+	db 36, RATICATE
+	db 39, DODUO
+	db 36, QUAGSIRE
+	db 41, PONYTA
+	db 39, SANDSLASH
+	db 39, SANDSLASH
 	; day
-	db 28, DODUO
-	db 28, RATICATE
-	db 30, DODUO
-	db 30, RATICATE
-	db 32, PONYTA
-	db 30, SANDSLASH
-	db 30, SANDSLASH
+	db 36, DODUO
+	db 36, RATICATE
+	db 39, DODUO
+	db 39, RATICATE
+	db 41, PONYTA
+	db 39, SANDSLASH
+	db 39, SANDSLASH
 	; nite
-	db 28, QUAGSIRE
-	db 28, RATICATE
-	db 30, QUAGSIRE
-	db 30, RATICATE
-	db 32, PONYTA
-	db 30, SANDSLASH
-	db 30, SANDSLASH
+	db 36, QUAGSIRE
+	db 36, RATICATE
+	db 39, QUAGSIRE
+	db 39, RATICATE
+	db 41, PONYTA
+	db 39, SANDSLASH
+	db 39, SANDSLASH
 	ELIF DEF(_SILVER)
 	; morn
-	db 28, DODUO
-	db 28, ARBOK
-	db 30, DODUO
-	db 28, QUAGSIRE
-	db 32, PONYTA
-	db 30, DODRIO
-	db 30, DODRIO
+	db 36, DODUO
+	db 36, ARBOK
+	db 39, DODUO
+	db 36, QUAGSIRE
+	db 41, PONYTA
+	db 39, DODRIO
+	db 39, DODRIO
 	; day
-	db 28, DODUO
-	db 28, ARBOK
-	db 30, DODUO
-	db 30, RATICATE
-	db 32, PONYTA
-	db 30, DODRIO
-	db 30, DODRIO
+	db 36, DODUO
+	db 36, ARBOK
+	db 39, DODUO
+	db 39, RATICATE
+	db 41, PONYTA
+	db 39, DODRIO
+	db 39, DODRIO
 	; nite
-	db 28, QUAGSIRE
-	db 28, ARBOK
-	db 30, QUAGSIRE
-	db 30, RATICATE
-	db 32, PONYTA
-	db 32, QUAGSIRE
-	db 32, QUAGSIRE
+	db 36, QUAGSIRE
+	db 36, ARBOK
+	db 39, QUAGSIRE
+	db 39, RATICATE
+	db 41, PONYTA
+	db 41, QUAGSIRE
+	db 41, QUAGSIRE
 	ENDC
 	end_grass_wildmons
 
@@ -1228,54 +1228,54 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	IF DEF(_GOLD)
 	; morn
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, URSARING
-	db 42, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, TANGELA
+	db 44, PONYTA
+	db 44, URSARING
+	db 47, RAPIDASH
+	db 45, DODUO
+	db 48, DODRIO
+	db 48, DODRIO
 	; day
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, URSARING
-	db 42, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, TANGELA
+	db 44, PONYTA
+	db 44, URSARING
+	db 47, RAPIDASH
+	db 45, DODUO
+	db 48, DODRIO
+	db 48, DODRIO
 	; nite
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, URSARING
-	db 40, SNEASEL
-	db 42, RAPIDASH
-	db 42, RAPIDASH
-	db 42, RAPIDASH
+	db 43, TANGELA
+	db 44, PONYTA
+	db 44, URSARING
+	db 44, SNEASEL
+	db 47, RAPIDASH
+	db 47, RAPIDASH
+	db 47, RAPIDASH
 	ELIF DEF(_SILVER)
 	; morn
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, DONPHAN
-	db 42, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, TANGELA
+	db 44, PONYTA
+	db 44, DONPHAN
+	db 47, RAPIDASH
+	db 45, DODUO
+	db 48, DODRIO
+	db 48, DODRIO
 	; day
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, DONPHAN
-	db 42, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, TANGELA
+	db 44, PONYTA
+	db 44, DONPHAN
+	db 47, RAPIDASH
+	db 45, DODUO
+	db 48, DODRIO
+	db 48, DODRIO
 	; nite
-	db 39, TANGELA
-	db 40, PONYTA
-	db 40, DONPHAN
-	db 40, SNEASEL
-	db 42, RAPIDASH
-	db 42, RAPIDASH
-	db 42, RAPIDASH
+	db 43, TANGELA
+	db 44, PONYTA
+	db 44, DONPHAN
+	db 44, SNEASEL
+	db 47, RAPIDASH
+	db 47, RAPIDASH
+	db 47, RAPIDASH
 	ENDC
 	end_grass_wildmons
 
