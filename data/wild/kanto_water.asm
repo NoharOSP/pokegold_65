@@ -88,30 +88,30 @@ KantoWaterWildMons:
 
 	def_water_wildmons ROUTE_26
 	db 6 percent ; encounter rate
-	db 30, TENTACOOL
-	db 25, TENTACOOL
-	db 30, TENTACRUEL
+	db 39, TENTACOOL
+	db 32, TENTACOOL
+	db 39, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_27
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
+	db 26, TENTACOOL
+	db 19, TENTACOOL
+	db 26, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons TOHJO_FALLS
 	db 4 percent ; encounter rate
-	db 20, GOLDEEN
-	db 20, SLOWPOKE
-	db 20, SEAKING
+	db 26, GOLDEEN
+	db 26, SLOWPOKE
+	db 26, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_28
 	db 2 percent ; encounter rate
-	db 40, POLIWAG
-	db 35, POLIWAG
-	db 40, POLIWHIRL
+	db 44, POLIWAG
+	db 39, POLIWAG
+	db 44, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons PALLET_TOWN
