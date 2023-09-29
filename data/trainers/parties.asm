@@ -2703,121 +2703,121 @@ PicnickerGroup:
 CamperGroup:
 	; CAMPER (1)
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_M
+	db 11, NIDORAN_M
 	db -1 ; end
 
 	; CAMPER (2)
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 14, PSYDUCK
+	db 18, PSYDUCK
 	db -1 ; end
 
 	; CAMPER (3)
 	db "IVAN@", TRAINERTYPE_NORMAL
-	db 10, DIGLETT
-	db 10, ZUBAT
-	db 14, DIGLETT
+	db 13, DIGLETT
+	db 13, ZUBAT
+	db 18, DIGLETT
 	db -1 ; end
 
 	; CAMPER (4)
 	db "ELLIOT@", TRAINERTYPE_NORMAL
-	db 13, SANDSHREW
-	db 15, MARILL
+	db 16, SANDSHREW
+	db 19, MARILL
 	db -1 ; end
 
 	; CAMPER (5)
 	db "BARRY@", TRAINERTYPE_NORMAL
-	db 36, NIDOKING
+	db 40, NIDOKING
 	db -1 ; end
 
 	; CAMPER (6)
 	db "LLOYD@", TRAINERTYPE_NORMAL
-	db 34, NIDOKING
+	db 38, NIDOKING
 	db -1 ; end
 
 	; CAMPER (7)
 	db "DEAN@", TRAINERTYPE_NORMAL
-	db 33, GOLDUCK
-	db 31, SANDSLASH
+	db 36, GOLDUCK
+	db 34, SANDSLASH
 	db -1 ; end
 
 	; CAMPER (8)
 	db "SID@", TRAINERTYPE_NORMAL
-	db 32, DUGTRIO
-	db 29, PRIMEAPE
-	db 29, POLIWRATH
+	db 35, DUGTRIO
+	db 32, PRIMEAPE
+	db 32, POLIWRATH
 	db -1 ; end
 
 	; CAMPER (9)
 	db "HARVEY@", TRAINERTYPE_NORMAL
-	db 15, NIDORINO
+	db 19, NIDORINO
 	db -1 ; end
 
 	; CAMPER (10)
 	db "DALE@", TRAINERTYPE_NORMAL
-	db 15, NIDORINO
+	db 19, NIDORINO
 	db -1 ; end
 
 	; CAMPER (11)
 	db "TED@", TRAINERTYPE_NORMAL
-	db 17, MANKEY
+	db 22, MANKEY
 	db -1 ; end
 
 	; CAMPER (12)
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 17, GEODUDE
-	db 17, GEODUDE
-	db 23, PSYDUCK
+	db 22, GEODUDE
+	db 22, GEODUDE
+	db 29, PSYDUCK
 	db -1 ; end
 
 	; CAMPER (13)
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
-	db 23, GEODUDE
-	db 26, PSYDUCK
+	db 29, GRAVELER
+	db 29, GRAVELER
+	db 33, GOLDUCK
 	db -1 ; end
 
 	; CAMPER (14)
 	db "THOMAS@", TRAINERTYPE_NORMAL
-	db 33, GRAVELER
-	db 36, GRAVELER
-	db 40, GOLBAT
-	db 42, GOLDUCK
+	db 42, GRAVELER
+	db 46, GRAVELER
+	db 52, GOLBAT
+	db 54, GOLDUCK
 	db -1 ; end
 
 	; CAMPER (15)
 	db "LEROY@", TRAINERTYPE_NORMAL
-	db 33, GRAVELER
-	db 36, GRAVELER
-	db 40, GOLBAT
-	db 42, GOLDUCK
+	db 42, GRAVELER
+	db 46, GRAVELER
+	db 52, GOLBAT
+	db 54, GOLDUCK
 	db -1 ; end
 
 	; CAMPER (16)
 	db "DAVID@", TRAINERTYPE_NORMAL
-	db 33, GRAVELER
-	db 36, GRAVELER
-	db 40, GOLBAT
-	db 42, GOLDUCK
+	db 42, GRAVELER
+	db 46, GRAVELER
+	db 52, GOLBAT
+	db 54, GOLDUCK
 	db -1 ; end
 
 	; CAMPER (17)
 	db "JOHN@", TRAINERTYPE_NORMAL
-	db 33, GRAVELER
-	db 36, GRAVELER
-	db 40, GOLBAT
-	db 42, GOLDUCK
+	db 42, GRAVELER
+	db 46, GRAVELER
+	db 52, GOLBAT
+	db 54, GOLDUCK
 	db -1 ; end
 
 	; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
-	db 37, SANDSLASH
+	db 41, SANDSLASH
 	db -1 ; end
 
 	; CAMPER (19)
 	db "SPENCER@", TRAINERTYPE_NORMAL
-	db 17, SANDSHREW
-	db 17, SANDSLASH
-	db 19, ZUBAT
+	db 22, SANDSHREW
+	db 22, SANDSLASH
+	db 24, GOLBAT
 	db -1 ; end
 
 ExecutiveFGroup:
