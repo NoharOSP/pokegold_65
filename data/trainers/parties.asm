@@ -2897,42 +2897,42 @@ SageGroup:
 MediumGroup:
 	; MEDIUM (1)
 	db "MARTHA@", TRAINERTYPE_NORMAL
-	db 18, GASTLY
-	db 20, HAUNTER
-	db 20, GASTLY
+	db 23, GASTLY
+	db 26, HAUNTER
+	db 26, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (2)
 	db "GRACE@", TRAINERTYPE_NORMAL
-	db 20, HAUNTER
-	db 20, HAUNTER
+	db 26, HAUNTER
+	db 26, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (3)
 	db "BETHANY@", TRAINERTYPE_NORMAL
-	db 25, HAUNTER
+	db 32, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (4)
 	db "MARGRET@", TRAINERTYPE_NORMAL
-	db 25, HAUNTER
+	db 32, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (5)
 	db "ETHEL@", TRAINERTYPE_NORMAL
-	db 25, HAUNTER
+	db 32, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (6)
 	db "REBECCA@", TRAINERTYPE_NORMAL
-	db 35, DROWZEE
-	db 35, HYPNO
+	db 39, DROWZEE
+	db 39, HYPNO
 	db -1 ; end
 
 	; MEDIUM (7)
 	db "DORIS@", TRAINERTYPE_NORMAL
-	db 34, SLOWPOKE
-	db 36, SLOWBRO
+	db 38, SLOWPOKE
+	db 40, SLOWBRO
 	db -1 ; end
 
 BoarderGroup:
@@ -2959,73 +2959,73 @@ BoarderGroup:
 PokefanMGroup:
 	; POKEFANM (1)
 	db "WILLIAM@", TRAINERTYPE_ITEM
-	db 14, RAICHU,     BERRY
+	db 18, RAICHU,     BERRY
 	db -1 ; end
 
 	; POKEFANM (2)
 	db "DEREK@", TRAINERTYPE_ITEM
-	db 17, PIKACHU,    BERRY
+	db 22, PIKACHU,    BERRY
 	db -1 ; end
 
 	; POKEFANM (3)
 	db "ROBERT@", TRAINERTYPE_ITEM
-	db 33, QUAGSIRE,   BERRY
+	db 36, QUAGSIRE,   BERRY
 	db -1 ; end
 
 	; POKEFANM (4)
 	db "JOSHUA@", TRAINERTYPE_ITEM
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
-	db 23, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
+	db 25, PIKACHU,    BERRY
 	db -1 ; end
 
 	; POKEFANM (5)
 	db "CARTER@", TRAINERTYPE_ITEM
-	db 29, BULBASAUR,  BERRY
-	db 29, CHARMANDER, BERRY
-	db 29, SQUIRTLE,   BERRY
+	db 32, BULBASAUR,  BERRY
+	db 32, CHARMANDER, BERRY
+	db 32, SQUIRTLE,   BERRY
 	db -1 ; end
 
 	; POKEFANM (6)
 	db "TREVOR@", TRAINERTYPE_ITEM
-	db 33, PSYDUCK,    BERRY
+	db 36, PSYDUCK,    BERRY
 	db -1 ; end
 
 	; POKEFANM (7)
 	db "BRANDON@", TRAINERTYPE_ITEM
-	db 13, SNUBBULL,   BERRY
+	db 16, SNUBBULL,   BERRY
 	db -1 ; end
 
 	; POKEFANM (8)
 	db "JEREMY@", TRAINERTYPE_ITEM
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
+	db 31, MEOWTH,     BERRY
+	db 31 MEOWTH,     BERRY
+	db 31, MEOWTH,     BERRY
 	db -1 ; end
 
 	; POKEFANM (9)
 	db "COLIN@", TRAINERTYPE_ITEM
-	db 32, DELIBIRD,   BERRY
+	db 35, DELIBIRD,   BERRY
 	db -1 ; end
 
 	; POKEFANM (10)
 	db "DEREK@", TRAINERTYPE_ITEM
-	db 19, PIKACHU,    BERRY
+	db 24, PIKACHU,    BERRY
 	db -1 ; end
 
 	; POKEFANM (11)
 	db "DEREK@", TRAINERTYPE_ITEM
-	db 36, PIKACHU,    BERRY
+	db 46, PIKACHU,    BERRY
 	db -1 ; end
 
 	; POKEFANM (12)
 	db "ALEX@", TRAINERTYPE_ITEM
-	db 29, NIDOKING,   BERRY
-	db 29, SLOWKING,   BERRY
-	db 29, SEAKING,    BERRY
+	db 32, NIDOKING,   BERRY
+	db 32, SLOWKING,   BERRY
+	db 32, SEAKING,    BERRY
 	db -1 ; end
 
 KimonoGirlGroup:
@@ -3113,31 +3113,31 @@ TwinsGroup:
 PokefanFGroup:
 	; POKEFANF (1)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 14, SNUBBULL,   BERRY
+	db 18, SNUBBULL,   BERRY
 	db -1 ; end
 
 	; POKEFANF (2)
 	db "RUTH@", TRAINERTYPE_ITEM
-	db 17, PIKACHU,    BERRY
+	db 22, PIKACHU,    BERRY
 	db -1 ; end
 
 	; POKEFANF (3)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 18, SNUBBULL,   BERRY
+	db 23, SNUBBULL,   BERRY
 	db -1 ; end
 
 	; POKEFANF (4)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 30, GRANBULL,   BERRY
+	db 39, GRANBULL,   BERRY
 	db -1 ; end
 
 	; POKEFANF (5)
 	db "GEORGIA@", TRAINERTYPE_ITEM
-	db 23, SENTRET,    BERRY
-	db 23, SENTRET,    BERRY
-	db 23, SENTRET,    BERRY
-	db 28, FURRET,     BERRY
-	db 23, SENTRET,    BERRY
+	db 25, SENTRET,    BERRY
+	db 25, SENTRET,    BERRY
+	db 25, SENTRET,    BERRY
+	db 31, FURRET,     BERRY
+	db 25, SENTRET,    BERRY
 	db -1 ; end
 
 RedGroup:
@@ -3165,13 +3165,13 @@ BlueGroup:
 OfficerGroup:
 	; OFFICER (1)
 	db "KEITH@", TRAINERTYPE_NORMAL
-	db 17, GROWLITHE
+	db 22, GROWLITHE
 	db -1 ; end
 
 	; OFFICER (2)
 	db "DIRK@", TRAINERTYPE_NORMAL
-	db 14, GROWLITHE
-	db 14, GROWLITHE
+	db 18, GROWLITHE
+	db 18, GROWLITHE
 	db -1 ; end
 
 GruntFGroup:
