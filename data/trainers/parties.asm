@@ -2897,42 +2897,42 @@ SageGroup:
 MediumGroup:
 	; MEDIUM (1)
 	db "MARTHA@", TRAINERTYPE_NORMAL
-	db 18, GASTLY
-	db 20, HAUNTER
-	db 20, GASTLY
+	db 23, GASTLY
+	db 26, HAUNTER
+	db 26, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (2)
 	db "GRACE@", TRAINERTYPE_NORMAL
-	db 20, HAUNTER
-	db 20, HAUNTER
+	db 26, HAUNTER
+	db 26, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (3)
 	db "BETHANY@", TRAINERTYPE_NORMAL
-	db 25, HAUNTER
+	db 32, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (4)
 	db "MARGRET@", TRAINERTYPE_NORMAL
-	db 25, HAUNTER
+	db 32, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (5)
 	db "ETHEL@", TRAINERTYPE_NORMAL
-	db 25, HAUNTER
+	db 32, HAUNTER
 	db -1 ; end
 
 	; MEDIUM (6)
 	db "REBECCA@", TRAINERTYPE_NORMAL
-	db 35, DROWZEE
-	db 35, HYPNO
+	db 39, DROWZEE
+	db 39, HYPNO
 	db -1 ; end
 
 	; MEDIUM (7)
 	db "DORIS@", TRAINERTYPE_NORMAL
-	db 34, SLOWPOKE
-	db 36, SLOWBRO
+	db 38, SLOWPOKE
+	db 40, SLOWBRO
 	db -1 ; end
 
 BoarderGroup:
