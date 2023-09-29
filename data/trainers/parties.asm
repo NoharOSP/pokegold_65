@@ -3165,13 +3165,13 @@ BlueGroup:
 OfficerGroup:
 	; OFFICER (1)
 	db "KEITH@", TRAINERTYPE_NORMAL
-	db 17, GROWLITHE
+	db 22, GROWLITHE
 	db -1 ; end
 
 	; OFFICER (2)
 	db "DIRK@", TRAINERTYPE_NORMAL
-	db 14, GROWLITHE
-	db 14, GROWLITHE
+	db 18, GROWLITHE
+	db 18, GROWLITHE
 	db -1 ; end
 
 GruntFGroup:
