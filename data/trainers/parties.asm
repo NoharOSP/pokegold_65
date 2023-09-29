@@ -3177,31 +3177,31 @@ OfficerGroup:
 GruntFGroup:
 	; GRUNTF (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, ZUBAT
-	db 11, EKANS
+	db 11, ZUBAT
+	db 14, EKANS
 	db -1 ; end
 
 	; GRUNTF (2)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 26, ARBOK
+	db 33, ARBOK
 	db -1 ; end
 
 	; GRUNTF (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, GLOOM
-	db 25, GLOOM
+	db 32, GLOOM
+	db 32, GLOOM
 	db -1 ; end
 
 	; GRUNTF (4)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 21, EKANS
-	db 23, ODDISH
-	db 21, EKANS
-	db 24, GLOOM
+	db 27, EKANS
+	db 29, ODDISH
+	db 27, ARBOK
+	db 31, GLOOM
 	db -1 ; end
 
 	; GRUNTF (5)
 	db "GRUNT@", TRAINERTYPE_MOVES
-	db 18, EKANS,      WRAP, LEER, POISON_STING, BITE
-	db 18, GLOOM,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
+	db 23, ARBOK,      GLARE, LEER, POISON_STING, BITE
+	db 23, GLOOM,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
 	db -1 ; end
