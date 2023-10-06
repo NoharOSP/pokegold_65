@@ -3002,7 +3002,7 @@ PokefanMGroup:
 	; POKEFANM (8)
 	db "JEREMY@", TRAINERTYPE_ITEM
 	db 31, MEOWTH,     BERRY
-	db 31 MEOWTH,     BERRY
+	db 31, MEOWTH,     BERRY
 	db 31, MEOWTH,     BERRY
 	db -1 ; end
 
