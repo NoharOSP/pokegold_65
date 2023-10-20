@@ -13,8 +13,8 @@ Trainers:
 FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db  9, PIDGEY,     TACKLE, MUD_SLAP, GUST, NO_MOVE
-	db  11, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
+	db  8, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
+	db  10, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
 WhitneyGroup:
@@ -521,8 +521,8 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	; BIRD_KEEPER (1)
 	db "ROD@", TRAINERTYPE_NORMAL
-	db  9, PIDGEY
-	db  9, PIDGEY
+	db  8, PIDGEY
+	db  8, PIDGEY
 	db -1 ; end
 
 	; BIRD_KEEPER (2)
@@ -1153,7 +1153,7 @@ PokemaniacGroup:
 GruntMGroup:
 	; GRUNTM (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 18, KOFFING
+	db 16, KOFFING
 	db -1 ; end
 
 	; GRUNTM (2)
