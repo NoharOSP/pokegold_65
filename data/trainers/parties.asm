@@ -2891,7 +2891,7 @@ SageGroup:
 	db "LI@", TRAINERTYPE_NORMAL
 	db  9, BELLSPROUT
 	db  9, BELLSPROUT
-	db 13, HOOTHOOT
+	db 12, HOOTHOOT
 	db -1 ; end
 
 MediumGroup:
