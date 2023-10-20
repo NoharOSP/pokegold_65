@@ -20,8 +20,8 @@ FalknerGroup:
 WhitneyGroup:
 	; WHITNEY (1)
 	db "WHITNEY@", TRAINERTYPE_MOVES
-	db 23, CLEFAIRY,   DOUBLESLAP, MIMIC, ENCORE, METRONOME
-	db 26, MILTANK,    ROLLOUT, ATTRACT, STOMP, MILK_DRINK
+	db 20, CLEFAIRY,   DOUBLESLAP, MIMIC, ENCORE, METRONOME
+	db 23, MILTANK,    ROLLOUT, ATTRACT, STOMP, MILK_DRINK
 	db -1 ; end
 
 BugsyGroup:
@@ -91,23 +91,23 @@ Rival1Group:
 
 	; RIVAL1 (4)
 	db "?@", TRAINERTYPE_NORMAL
-	db 15, GASTLY
-	db 18, ZUBAT
-	db 20, BAYLEEF
+	db 13, GASTLY
+	db 16, ZUBAT
+	db 18, BAYLEEF
 	db -1 ; end
 
 	; RIVAL1 (5)
 	db "?@", TRAINERTYPE_NORMAL
-	db 15, GASTLY
-	db 18, ZUBAT
-	db 20, QUILAVA
+	db 13, GASTLY
+	db 16, ZUBAT
+	db 18, QUILAVA
 	db -1 ; end
 
 	; RIVAL1 (6)
 	db "?@", TRAINERTYPE_NORMAL
-	db 15, GASTLY
-	db 18, ZUBAT
-	db 20, CROCONAW
+	db 13, GASTLY
+	db 16, ZUBAT
+	db 18, CROCONAW
 	db -1 ; end
 
 	; RIVAL1 (7)
@@ -527,7 +527,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (2)
 	db "ABE@", TRAINERTYPE_NORMAL
-	db  11, SPEAROW
+	db  10, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
